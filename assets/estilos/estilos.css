@@ -8,8 +8,11 @@
 body{
    font-family: 'Roboto', sans-serif;
    overflow: hidden;
-  
 }
+.contenedor{
+    overflow: hidden;
+}
+
 
 header{
     margin: 0px;
