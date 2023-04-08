@@ -1,0 +1,68 @@
+@media only screen and (max-width:600px){
+   nav .shopping__icono{
+    display: none;
+   }
+   nav .menu__icono {
+    display: block;
+    grid-column: 8/9;
+    font-size: 1.6em;
+    cursor: pointer;
+
+   }
+   nav{
+      position: relative;
+   }
+   nav p{
+      display:block;
+   }
+   nav .desplegable{
+      position: absolute;
+      width: 100%;
+      height: 30vh;
+      justify-content:start;
+      align-items: center;
+      display: grid;
+      grid-column: 1/9;
+      background-color: #edcb54;
+      margin-top: 24em;
+      padding: 10px;
+      
+      transform: translateX(100%);
+      transition: all 1s;
+   }
+   nav li{
+      text-align: left;
+   }
+   
+   nav .menu-toggle{
+      transform: translateX(0%);
+   }
+   .nav__bar-items li:hover{
+      background-color: rgba(128, 128, 128,0.5);
+      
+   }
+   /*==================    SECTION MAIN    ==========================*/
+
+   .info-content{
+      grid-column: 2/9;
+      grid-row: 2/6;
+   }
+   .hero h3{
+      font-size: 1.5em;
+      font-weight: 300;
+   }
+   .hero h1{
+      font-size: 3em;
+   }
+   .hero p{font-size: 1em;
+      line-height: 2em;
+   }
+   .hero .btn{
+      font-size: 1em;
+      padding: 5px 10px;
+      border: 1px solid #edcb54;
+   }
+
+   
+    
+}
