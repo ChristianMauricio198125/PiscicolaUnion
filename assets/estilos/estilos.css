@@ -7,10 +7,11 @@
 }
 body{
    font-family: 'Roboto', sans-serif;
-   overflow: hidden;
+   
 }
 .contenedor{
-    overflow: hidden;
+    overflow-x: hidden;
+  
 }
 
 
@@ -33,6 +34,7 @@ nav{
 nav img{
     height: 60px;
     grid-column: 2/3;
+    padding: 5px;
 }
 nav p{
     display: none;
